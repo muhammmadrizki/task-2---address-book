@@ -24,4 +24,14 @@ const contacts = [
   },
 ];
 
-console.log(contacts);
+for (let index = 0; index < contacts.length; index++) {
+  const contact = contacts[index];
+  console.log(`
+    id : ${contact.id}
+    name :${contact.name}
+    email : ${contact.email},
+    phone :${contact.phone}
+    isActive : ${contact.isActive}
+    
+    `);
+}
