@@ -98,13 +98,10 @@ createContact({
 });
 
 // READ
-readContacts();
+readContact();
 
 // UPDATE
 updateContact();
 
 // DELETE
 deleteContact();
-
-// READ again
-readContacts();
